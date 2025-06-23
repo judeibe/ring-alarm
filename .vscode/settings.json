@@ -3,5 +3,18 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+   "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".github/instructions/commit.instructions.md"
+    }
+  ],
+  "mcp": {
+    "servers": {
+      "git": {
+        "command": "uvx",
+        "args": ["mcp-server-git"]
+      }
+    }
+  }
 }
