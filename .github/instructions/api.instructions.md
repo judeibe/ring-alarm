@@ -1,5 +1,5 @@
 ---
-applyTo: "src/pages/api/**,src/app/api/**"
+applyTo: "**/src/pages/api/**,**/src/app/api/**"
 ---
 # Quoin • API Route Standards
 

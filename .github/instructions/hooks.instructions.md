@@ -1,5 +1,5 @@
 ---
-applyTo: "src/hooks/**"
+applyTo: "**/src/hooks/**"
 ---
 # Quoin • Custom Hook Conventions
 
