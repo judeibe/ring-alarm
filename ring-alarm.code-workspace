@@ -58,6 +58,14 @@
 					]
 				}
 			}
-		}
+		},
+		"jest.disabledWorkspaceFolders": [
+			"✨ my-turborepo",
+			"🚀 @repo/api",
+			"📦 @repo/eslint-config",
+			"📦 @repo/jest-config",
+			"📦 @repo/typescript-config",
+			"📦 @repo/ui"
+		]
 	}
 }
