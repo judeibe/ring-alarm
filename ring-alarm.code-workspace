@@ -1,71 +1,61 @@
 {
-	"folders": [
-		{
-			"name": "✨ my-turborepo",
-			"path": "."
-		},
-		{
-			"name": "🚀 api",
-			"path": "apps/api"
-		},
-		{
-			"name": "🚀 web",
-			"path": "apps/web"
-		},
-		{
-			"name": "🚀 @repo/api",
-			"path": "packages/api"
-		},
-		{
-			"name": "📦 @repo/eslint-config",
-			"path": "packages/eslint-config"
-		},
-		{
-			"name": "📦 @repo/jest-config",
-			"path": "packages/jest-config"
-		},
-		{
-			"name": "📦 @repo/typescript-config",
-			"path": "packages/typescript-config"
-		},
-		{
-			"name": "📦 @repo/ui",
-			"path": "packages/ui"
-		}
-	],
-	"settings": {
-		"github.copilot.chat.commitMessageGeneration.instructions": [
-			{
-				"file": ".github/instructions/commit.instructions.md"
-			}
-		],
-		"mcp": {
-			"inputs": [],
-			"servers": {
-				"git": {
-					"command": "uvx",
-					"args": [
-						"mcp-server-git"
-					],
-					"type": "stdio"
-				},
-				"Linear": {
-					"type": "stdio",
-					"command": "npx",
-					"args": [
-						"mcp-remote",
-						"https://mcp.linear.app/sse"
-					]
-				}
-			}
-		},
-		"jest.disabledWorkspaceFolders": [
-			"✨ my-turborepo",
-			"🚀 @repo/api",
-			"📦 @repo/eslint-config",
-			"📦 @repo/jest-config",
-			"📦 @repo/typescript-config",
-			"📦 @repo/ui"
-		]
-	}
+  "folders": [
+    {
+      "name": "✨ my-turborepo",
+      "path": "."
+    },
+    {
+      "name": "🚀 api",
+      "path": "apps/api"
+    },
+    {
+      "name": "🚀 web",
+      "path": "apps/web"
+    },
+    {
+      "name": "🚀 @repo/api",
+      "path": "packages/api"
+    },
+    {
+      "name": "📦 @repo/jest-config",
+      "path": "packages/jest-config"
+    },
+    {
+      "name": "📦 @repo/typescript-config",
+      "path": "packages/typescript-config"
+    },
+    {
+      "name": "📦 @repo/ui",
+      "path": "packages/ui"
+    }
+  ],
+  "settings": {
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+      {
+        "file": ".github/instructions/commit.instructions.md"
+      }
+    ],
+    "mcp": {
+      "inputs": [],
+      "servers": {
+        "git": {
+          "command": "uvx",
+          "args": ["mcp-server-git"],
+          "type": "stdio"
+        },
+        "Linear": {
+          "type": "stdio",
+          "command": "npx",
+          "args": ["mcp-remote", "https://mcp.linear.app/sse"]
+        }
+      }
+    },
+    "jest.disabledWorkspaceFolders": [
+      "✨ my-turborepo",
+      "🚀 @repo/api",
+      "📦 @repo/jest-config",
+      "📦 @repo/typescript-config",
+      "📦 @repo/ui"
+    ]
+  }
 }

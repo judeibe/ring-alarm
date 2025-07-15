@@ -10,17 +10,13 @@
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "./dist/**"
-  ],
+  "files": ["./dist/**"],
   "publishConfig": {
     "access": "public"
   },
   "typesVersions": {
     "*": {
-      "*": [
-        "src/*"
-      ]
+      "*": ["src/*"]
     }
   },
   "exports": {
@@ -37,7 +33,6 @@
     "@nestjs/mapped-types": "*"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^20.3.1",
     "ts-loader": "^9.4.3",
